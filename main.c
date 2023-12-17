@@ -1,6 +1,6 @@
 #include    "reg51.h"
 
-#define     MAIN_Fosc       11059200L   //?????
+#define     MAIN_Fosc       12000000L   //?????
 
 typedef     unsigned char   u8;
 typedef     unsigned int    u16;
@@ -94,21 +94,8 @@ void main(void)
     while(1)
     {
         P17 = 0;
-        delay_ms(250);
-        delay_ms(250);
+        delay_ms(1000);
         P17 = 1;
-        P16 = 0;
-        delay_ms(250);
-        delay_ms(250);
-        P16 = 1;
-        P47 = 0;
-        delay_ms(250);
-        delay_ms(250);
-        P47 = 1;
-        P46 = 0;
-        delay_ms(250);
-        delay_ms(250);
-        P46 = 1;
     }
 }
 
@@ -116,7 +103,7 @@ void  delay_ms(u8 ms)
 {
      u16 i;
      do{
-          i = MAIN_Fosc / 13000;
+          i = MAIN_Fosc / 16000;
           while(--i)    ;   //14T per loop
      }while(--ms);
 }
