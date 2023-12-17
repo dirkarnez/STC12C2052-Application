@@ -96,6 +96,7 @@ void main(void)
         P17 = 0;
         delay_ms(1000);
         P17 = 1;
+        delay_ms(1000);
     }
 }
 
