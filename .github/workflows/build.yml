@@ -56,7 +56,7 @@ jobs:
       - shell: cmd
         run: |
           set CURRENT_DIRECTORY=%CD%
-          cd ${{ github.repository }} && "%CURRENT_DIRECTORY%\keil-c51-v9.61-portable\UV4.Portable.exe" --project=blink.uvproj &&^
+          cd ${{ github.repository }} && "%CURRENT_DIRECTORY%\keil-c51-v9.61-portable\UV4.Portable.exe" --project=Application.uvproj &&^
           dir
           
       - name: Archive Release
