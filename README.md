@@ -1,12 +1,16 @@
 STC12C2052-Application
 ======================
 ### Notes
-- "Arduino ISP" uses SPI to program STC mcu
-  - Portable, no installation is needed
-  - More pins
-- STC documentation demostrates using USART to program the mcu with a USB-To-TTL (e.g. CH340G)
-  - lesser pins
-  - Needs [STC ISP software](https://github.com/dirkarnez/stc-isp) which requires drivers installation
+- Compilation
+  - Keil C51 should be licensed because unlicensed C51 will produce huge `.hex` file and it cannot be programmed to the STC12C2052
+- Programming
+  - [dirkarnez/stc-isp](https://github.com/dirkarnez/stc-isp) v6.85I is recommended
+  - "Arduino ISP" uses SPI to program STC mcu
+    - Portable, no installation is needed
+    - More pins
+  - STC documentation demostrates using USART to program the mcu with a USB-To-TTL (e.g. CH340G)
+    - lesser pins
+    - Needs [STC ISP software](https://github.com/dirkarnez/stc-isp) which requires drivers installation
 - Minimal circuit
   - **needs** external crystal (do not use internal because it has lower precision)
   - [搭建51单片机最小系统——以STC12C2052为例](https://zhou-yuxin.github.io/articles/2015/%E6%90%AD%E5%BB%BA51%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%B3%BB%E7%BB%9F%E2%80%94%E2%80%94%E4%BB%A5STC12C2052%E4%B8%BA%E4%BE%8B/index.html)
