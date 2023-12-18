@@ -3,6 +3,7 @@ STC12C2052-Application
 ### Notes
 - Compilation
   - Keil C51 should be licensed because unlicensed C51 will produce huge `.hex` file and it cannot be programmed to the STC12C2052
+  - [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/) is worth trying
 - Programming
   - [dirkarnez/stc-isp](https://github.com/dirkarnez/stc-isp) v6.85I is recommended
   - "Arduino ISP" uses SPI to program STC mcu
