@@ -1,5 +1,8 @@
 STC12C2052-Application
 ======================
+### TODOs
+- [ ] Migrate to [dirkarnez/sdcc-playground](https://github.com/dirkarnez/sdcc-playground)
+
 ### Notes
 - Compilation
   - Keil C51 should be licensed because unlicensed C51 will produce huge `.hex` file and it cannot be programmed to the STC12C2052
