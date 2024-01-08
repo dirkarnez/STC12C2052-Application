@@ -6,6 +6,9 @@ STC12C2052-Application
 ### Header
 - https://www.stcisp.com/header_file/STC/STC12C2052AD.H
 
+### ISP
+- https://github.com/grigorig/stcgal
+
 ### Notes
 - Compilation
   - Keil C51 should be licensed because unlicensed C51 will produce huge `.hex` file and it cannot be programmed to the STC12C2052
