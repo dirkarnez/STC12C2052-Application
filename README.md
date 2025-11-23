@@ -2,7 +2,8 @@ STC12C2052-Application
 ======================
 ### TODOs
 - [ ] Migrate to [dirkarnez/sdcc-playground](https://github.com/dirkarnez/sdcc-playground)
-
+- [ ] PWM using Programmable Counter Array(PCA) module (STC89C52RC does not have PCA)
+  - https://www.stcmicro.com/datasheet/STC12C2052AD-en.pdf
 ### Header
 - https://www.stcisp.com/header_file/STC/STC12C2052AD.H
 
